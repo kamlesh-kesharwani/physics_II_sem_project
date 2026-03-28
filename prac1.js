@@ -40,7 +40,7 @@ function getvalue(){
   const l = s*(m2 - m1);
   const u = t2 - t1;
 
-  const j = f/l*u;
+  const j = f/l*1/u;
 
   document.querySelector('.result').innerHTML = `<p> The result is ${j}`
 
