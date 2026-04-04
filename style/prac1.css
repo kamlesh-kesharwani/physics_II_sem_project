@@ -1,0 +1,23 @@
+
+header{
+  background-color: #002147;
+  color: #f3f6fa;
+  font-size: 50px;
+  
+}
+p{
+  font-size: 25px;
+  font-family: fantasy;
+  text-align: left;
+  margin-top: 13px;
+  margin-left: 550px;
+}
+button{
+  background-color: #336aaad6;
+  text-align: right;
+  margin-left: 700px;
+  font-size: larger;
+  }
+p{
+  color: #002147;
+}

@@ -1,0 +1,25 @@
+header{
+  background-color: #002147;
+  color: aliceblue;
+  height: 100px;
+  text-align: center;
+  font-size: 70px;
+}
+.title{
+  color: #2964a8;
+  font-size: 50px;
+  margin-left: 500px;
+}
+div{
+ 
+  text-align: left;
+  margin-top: 13px;
+  margin-left: 550px;
+}
+.button{
+  background-color: #336aaad6;
+  text-align: right;}
+a{
+  color: #ebedf6;
+  text-decoration: none;
+}
