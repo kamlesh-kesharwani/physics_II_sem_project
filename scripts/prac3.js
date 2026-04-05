@@ -6,9 +6,9 @@ document.querySelector('.main_content').innerHTML = `
         1: For ice
         2: For water in Room temperature
         3: For boiling Water
-        <input type="number" placeholder="Enter only serial number" id="user_choice">
-        <button onclick="choice()"> Next</button>
       </pre>
+      <input type="number" placeholder="Enter only serial number" id="user_choice">
+      <button onclick="choice()" class="next_button"> Next</button>
     </div>
     
 `
@@ -18,7 +18,7 @@ function choice(){
   
   if(choice === 1){
     document.querySelector('.interface_on_user_choice').innerHTML = `
-    <p > 
+    <p class="water_state"> 
         For ice 
       </p>
       <p>Enter the value of Fractional Resistance r1(ohm) <input type="number" id = "ohm"></p>
@@ -32,7 +32,7 @@ function choice(){
   }
   else if(choice === 2){
     document.querySelector('.interface_on_user_choice').innerHTML = `
-    <p > 
+    <p class="water_state"> 
         For water in Room temperature
       </p>
       <p>Enter the value of Fractional Resistance r(ohm) <input type="number" id = "ohm"></p>
@@ -46,7 +46,7 @@ function choice(){
   }
   else if(choice === 3){
     document.querySelector('.interface_on_user_choice').innerHTML =`
-    <p > 
+    <p class="water_state"> 
         For boiling Water 
       </p>
       <p>Enter the value of Fractional Resistance r(ohm) <input type="number" id = "ohm"></p>

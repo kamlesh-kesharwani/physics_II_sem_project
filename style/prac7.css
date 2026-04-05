@@ -3,23 +3,31 @@ header{
   background-color: #002147;
   color: #f3f6fa;
   font-size: 50px;
+  text-align: center;
   
 }
-p{
+p, pre{
   font-size: 25px;
   font-family: fantasy;
   text-align: left;
   margin-top: 13px;
   margin-left: 550px;
+  color: #002147;
+}
+input{
+  cursor: pointer;
+}
+#user_choice{
+  color: rgb(1, 14, 20);
+  text-align: right;
+  margin-left: 600px;
+  font-size: larger;
 }
 button{
-  background-color: #336aaad6;
+  background-color: #6099d2d6;
   text-align: right;
   margin-left: 700px;
   font-size: larger;
-  }
-p{
-  color: #002147;
 }
 .result{
   color: #002147;
