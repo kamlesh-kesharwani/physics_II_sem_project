@@ -20,10 +20,13 @@ function calculation(){
   const bResistance = document.getElementById('bResistance');
   const r = bResistance.value;
 
-  const e = (E*r)/(L*(R+r));
+  const e = c/b;
+  const a = (R+r);
+  const b = (L*a);
+  const c = (E*r);
 
   document.querySelector('.result').innerHTML = `
-  The Thermo emf is ${e}.`
+  The Thermo emf is ${e} volt.`
   
 
 }

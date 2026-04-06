@@ -26,8 +26,8 @@ document.querySelector('.main_content').innerHTML = `
 
       x = m* 4.2 * 1000 * T * R;
       y = V*V*t;
-      eff = x/y *100;
+      eff = (x/y) *100;
 
       document.querySelector('.result').innerHTML = `
-      The result is ${eff} .`
+      The efficiency of electrical Kettle with variable voltages is ${eff} joule per kg degree celcius .`
     }

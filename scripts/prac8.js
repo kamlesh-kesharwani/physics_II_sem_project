@@ -44,9 +44,16 @@ function calculation(){
 
   const r = Math.log10(r2/r1);
 
-  const k = (2.303 * r*(M*S + W)*(T2 - T1))/(2*3.14*l*t)*(T-[(T2+T1)/2]);
+  const a= (T2+T1)/2;
+  const b= T2 - T1;
+  const c=(M*S) + W;
+  const d = 2.303 * r;
+  const e = (l*t)*(T-a);
+  const f = (2*3.14);
+  const g = (d)*(c*b);
+  const h =  f * e;
+  const k = g/h;
 
   document.querySelector('.Result').innerHTML = `
   The coefficient of thermal conductivity of rubber in the form of a tube is ${k}.`
-
 }

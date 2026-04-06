@@ -30,8 +30,12 @@ function calculation(){
   const area = document.getElementById('area');
   const A = area.value;
 
-  const k = (m*d*(T4-T3))/A*(T1-T2);
+  const a = (T4-T3);
+  const b = (T1-T2);
+  const c = (m*d*a);
+  const e = A*b;
+  const k = c/e;
 
   document.querySelector('.result').innerHTML = `
-  The Thermal Conductivity is ${k}.`
+  The Thermal Conductivity is ${k} calorie per gram per degree celcius per second.`
 }

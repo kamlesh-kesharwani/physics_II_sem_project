@@ -23,3 +23,10 @@ a{
   color: #ebedf6;
   text-decoration: none;
 }
+.profile{
+  text-align: right;
+  background-color: #002147;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: medium;
+}

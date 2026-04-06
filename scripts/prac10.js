@@ -14,7 +14,9 @@ function calculation(){
   const Temp = document.getElementById('Temp');
   const t = Temp.value;
 
-  const R = Ro*(1 - a*t);
+  const R1= Ro;
+  const R2 = (1)- (a*t);
+  const R = R1/R2;
   
   document.querySelector('.result').innerHTML = `
   The result is ${R}.`

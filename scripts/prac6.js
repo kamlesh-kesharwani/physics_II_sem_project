@@ -6,7 +6,8 @@ function calculation(){
   const height = document.getElementById('h');
   const h = height.value;
 
-  const G = H/(H-h);
+  const a = (H-h);
+  const G = H/a;
 
   document.querySelector('.Result').innerHTML = `
   The ratio of Specific Heat of air is ${G}.`

@@ -38,8 +38,13 @@ function calculation(){
   const time = document.getElementById('time');
   const dT= time.value;
 
-  const J = V*I*dT/(Mw*Sw+Mv*Sv)*(Tf-Ti);
+  const x = V*I*dT;
+  const y = (Mw*Sw)+(Mv*Sv);
+  const z = (Tf-Ti);
+
+  const a = y*z;
+  const J = x/a;
 
   document.querySelector('.result').innerHTML = `
-  The Mechanical equivalent of heat J is ${J}.`
+  The Mechanical equivalent of heat J is ${J} joules per calorie.`
 }

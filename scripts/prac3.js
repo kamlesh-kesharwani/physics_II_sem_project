@@ -86,8 +86,11 @@ function getValue(){
   const l_2 = length_2.value;
 
 
-  const R1 = r*(l_2 - l_1) - r2*(l2-l1);
+  const a = l_2 - l_1;
+  const b = (l2-l1);
+  const R1 = (r*a)- (r2*b);
+  
 
   document.querySelector('.resistance_of_platinum').innerHTML = `
-  The Resistence of Platinum is ${R1}.`
+  The Resistence of Platinum is ${R1} per degree celcius .`
 }
