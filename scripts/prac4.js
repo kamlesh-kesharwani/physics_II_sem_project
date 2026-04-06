@@ -30,12 +30,12 @@ function calculation(){
   const slope = document.getElementById('slope');
   const dT = slope.value;
 
-  const k = d/e;
   const a = dT*x;
   const b = m*s;
   const c = (T2-T1);
   const d = (b*a);
   const e = A*c;
+  const k = d/e;
 
   document.querySelector('.result').innerHTML = `
   The thermal conductivity of a bad conductor is ${k} cal per cm per degree celcious per second.
